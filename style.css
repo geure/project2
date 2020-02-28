@@ -86,10 +86,10 @@ p, ul {
 }
 
 .image-cropper {
-	top: 325px;
+	top: 305px;
     left: 90px;
-    width: 200px;
-    height: 200px;
+    width: 223px;
+    height: 223px;
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
@@ -105,8 +105,8 @@ p, ul {
 	z-index: 2;
 	*/
 
-	  margin: 0 auto;
-  margin-left: -7%; //centers the image
-  height: 100%;
-  width: auto;
+	margin: 0 auto;
+	margin-left: -1%; //centers the image
+	height: 100%;
+	width: auto;
 }
