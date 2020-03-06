@@ -229,7 +229,7 @@ li.github {
 
 }
 
-#leftborderbox {
+.leftborderbox {
 	box-sizing: border-box;
 	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
 	border: 2px;
@@ -237,7 +237,7 @@ li.github {
 	background-color: #fff;
 
 }
-#rightborderbox {
+.rightborderbox {
 	box-sizing: border-box;
 	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
 	border: 2px;
