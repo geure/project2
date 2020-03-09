@@ -298,8 +298,8 @@ div#southdakota h1 {
 div#southdakota h2 {
 	font-size: 1.8em;
 	font-weight: 600;
-	padding-top: .4em;
-	padding-bottom: 1em;
+	padding-top: 2em;
+	padding-bottom: .5em;
 	text-align: center
 }
 
@@ -444,7 +444,7 @@ div#napa .map {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5em;
-	width: 75%;
+	width: 68%;
 	height: auto;
 	border: 1px solid #4C3A27;
 	padding-bottom: 0;
