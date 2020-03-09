@@ -6,7 +6,7 @@ font-family: 'Play', sans-serif;
 font-family: 'Marker Felt';
 */
 
-body {
+body.sd {
 	/*max-width: 1200px;*/
 	background: #959796 url("images/gray-wood.jpg");
 	min-width: 620px;
@@ -19,7 +19,7 @@ body {
 }
 
 nav {  
-	font-family: 'Source Sans Pro';
+	font-family: 'Arial';
 	font-size: 1em;
 	width: 100%;
 	height: 2.1em;
@@ -28,7 +28,7 @@ nav {
 }  
 
 nav ul {
-	padding-top: .2em;
+	padding-top: .25em;
 }
 
 nav ul li {
@@ -61,7 +61,7 @@ nav ul li a:active {
 	padding-right: 2em; 
 	}*/
 
-.map {
+div#southdakota .map {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -72,6 +72,7 @@ nav ul li a:active {
 	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
 }
 
+div#southdakota,
 img,
 embed,
 object {
@@ -79,7 +80,7 @@ max-width: 100%;
 height: auto;
 }
 
-video {
+div#southdakota video {
 	margin: 0 auto;
 	max-width: 40%;
 	height: auto;
@@ -88,7 +89,8 @@ video {
 	border: 10px outset #ddd;
 	border-color: black;
 }
-h1 {
+
+div#southdakota h1 {
 	font-size: 2.6em;
 	font-weight: 600;
 	padding-top: .5em;
@@ -96,43 +98,43 @@ h1 {
 	text-align: center
 }
 
-h2 {
+div#southdakota h2 {
 	font-size: 1.8em;
 	font-weight: 600;
 	padding-top: .4em;
-	padding-bottom: .4em;
+	padding-bottom: 1em;
 	text-align: center
 }
 
-p {
+div#southdakota p {
 	font-size: 1.2em;
 	font-weight: 600;
 }
 
-#container {
+#southdakota {
 	width: 90%; margin: 5% auto;
 }
 
-.row { margin: auto; 
+div#southdakota .row { margin: auto; 
 	padding-top: 3em;
 	padding-bottom: 2em;
 }
 
-div.clear {
+div#southdakota div.clear {
 	clear: both;
 }
 
-@media screen and (max-width: 767px) {
+div#southdakota @media screen and (max-width: 767px) {
     .polaroids li:nth-child(n+5) {
 		display: none;
     }
 }
 
-ul.polaroids li {
+div#southdakota ul.polaroids li {
 	display: inline; 
 }
 
-ul.polaroids a { 
+div#southdakota ul.polaroids a { 
 	background: #fff; 
 	display: inline; 
 	float: left; 
@@ -152,62 +154,62 @@ ul.polaroids a {
 	-moz-transform: rotate(-2deg); 
 }
 
-ul.polaroids li {
+div#southdakota ul.polaroids li {
 	padding-left: 0;
 }
 
-@media screen and (max-width: 768px) {
+div#southdakota @media screen and (max-width: 768px) {
 	ul.polaroids li a {
         margin-left: 0;
     } 
 }
 
-ul.polaroids img { 
+div#southdakota ul.polaroids img { 
 	display: block; 
 	width: 300px; 
 	margin-bottom: 12px; 
 }
 
-ul.polaroids a:after { 
+div#southdakota ul.polaroids a:after { 
 	content: attr(title); 
 }
 		
-ul.polaroids li:nth-child(even) a { 
+div#southdakota ul.polaroids li:nth-child(even) a { 
 	-webkit-transform: rotate(2deg);  
 	-moz-transform: rotate(2deg); 
 }
 
-ul.polaroids li:nth-child(3n) a { 
+div#southdakota ul.polaroids li:nth-child(3n) a { 
 	-webkit-transform: none; 
 	position: relative; top: -5px;  
 	-moz-transform: none; 
 }
 
-ul.polaroids li:nth-child(5n) a { 
+div#southdakota ul.polaroids li:nth-child(5n) a { 
 	-webkit-transform: rotate(5deg); 
 	position: relative; right: 5px;  
 	-moz-transform: rotate(5deg); 
 }
 
-ul.polaroids li:nth-child(8n) a 
+div#southdakota ul.polaroids li:nth-child(8n) a 
 { position: relative; 
 	right: 5px; 
 	top: 8px; 
 }
 
-ul.polaroids li:nth-child(11n) a { 
+div#southdakota ul.polaroids li:nth-child(11n) a { 
 	position: relative; 
 	left: -5px; 
 	top: 3px; 
 }
 		
-ul.polaroids li.messy a {
+div#southdakota ul.polaroids li.messy a {
 	margin-top: -400px;
 	position: relative;
 	left: 160px;
 }
 
-ul.polaroids li a:hover { 
+div#southdakota ul.polaroids li a:hover { 
 	-webkit-transform: scale(1.25); 
 	-moz-transform: scale(1.25); 
 	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); 

@@ -1,0 +1,555 @@
+/* style.css */
+
+/* universal navigation style */
+
+nav {  
+	font-family: 'Arial';
+	font-size: 1em;
+	width: 100%;
+	height: 2.1em;
+	background-color: #323131;
+	padding-left: 3.5em;
+}  
+
+nav ul {
+	padding-top: .25em;
+}
+
+nav ul li {
+	margin: 0px;
+	float: left;
+}
+nav ul li a {
+	text-align: center;
+	display: block;
+	float: left;
+	color: white;
+	text-decoration: none;
+	overflow: hidden;
+	padding-top: .1em;
+	padding-right: 1em;
+	vertical-align: middle;
+	font-weight: 200;
+} 
+
+nav ul li a:hover,
+nav ul li a:active { 
+	color: silver;
+}  
+
+/* resume style */
+
+body.res {
+	/*max-width: 1200px;*/
+	min-width: 620px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #F5F5F5;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+div#resume,
+img,
+embed,
+object,
+video {
+max-width: 100%;
+height: auto;
+}
+
+div#resume h1 {
+	font-size: 2.6em;
+	margin-top: -15px;
+	padding-bottom: .5em;
+}
+
+div#resume h2 {
+	font-size: 1.8em;
+	color: #5C5858;
+	margin-top: 0px;
+	padding-bottom: .3em;
+}
+
+div#resume h3 {
+	font-size: 1.4em;
+	font-weight: 800;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
+div#resume h4 {
+	font-size: 1.2em;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
+div#resume .dim {
+	color: #C0C0C0;
+	font-size: .7em;
+}
+
+div#resume p, ul {
+	font-weight: 400;
+	font-size: 1em;
+}
+
+div#resume ul.ul-resume {
+	padding-left: 1em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+div#resume li.bullet {
+	padding: 0;
+	list-style-type: square;
+	margin: 0 0 .5em .5em;
+}
+
+div#resume li.no_bullet {
+	padding: 0;
+}
+
+/*
+ul.bullet li::before {
+	color: #5C5858;
+	display: inline-block;
+	left: -1.1225em;
+	position: absolute;
+	top: 0em;
+}*/
+
+div#resume li.location {
+	background: url('images/location.png') no-repeat left top;
+	background-position: 99.2% 1em;
+	font-size: 1.1em;
+	padding-right: 1.8em;
+	text-decoration: none;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	text-align: right;
+}
+
+div#resume li.mail {
+	background: url('images/mail3.png') no-repeat left top;
+	background-position: 100% .1em;
+	font-size: 1.1em;
+	padding-right: 1.8em;
+	text-decoration: none;
+	padding-bottom: .5em;
+	text-align: right;
+}
+
+div#resume li.linkedin {
+	background: url('images/linkedin2.png') no-repeat left top;
+	background-position: 100% .1em;
+	font-size: 1.1em;
+	padding-right: 1.8em;
+	text-decoration: none;
+	padding-bottom: .5em;
+	text-align: right;
+}
+
+div#resume li.github {
+	background: url('images/github2.png') no-repeat left top;
+	background-position: 100% .1em;
+	font-size: 1.1em;
+	padding-right: 1.8em;
+	text-decoration: none;
+	padding-bottom: .5em;
+	text-align: right;
+}
+
+div#resume .a_noformat {
+	text-decoration: none;
+	color: black;
+}
+
+div#resume #infobox {
+	box-sizing: border-box;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	border: 2px;
+	padding: 2%;
+	background-color: #fff;
+	overflow: hidden /* keep div elements from floating out of the box */
+}
+
+div#resume .headshot{
+	/*width:18%;*/
+	float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 224px;
+    height: 224px;
+}
+
+div#resume #infobox1 {
+	float: left;
+	width: 30%;
+	padding-left: 5%;
+	padding-top: 6%;
+}
+div#resume #infobox2 {
+	float: right;
+	width: 35%;
+	padding-top: 3%;
+}
+
+div#resume #borderbox {
+	box-sizing: border-box;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	border: 2px;
+	padding: 2%;
+	background-color: #fff;
+}
+
+div#resume #leftcolumn {
+	float: left;
+	width: 60%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+
+div#resume #rightcolumn {
+	float: right;
+	width: 34%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+
+}
+
+div#resume .leftborderbox {
+	box-sizing: border-box;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
+	border: 2px;
+	padding: 3%;
+	background-color: #fff;
+
+}
+div#resume .rightborderbox {
+	box-sizing: border-box;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
+	border: 2px;
+	padding: 3%;
+	background-color: #fff;
+	margin-bottom: 6%;
+}
+
+/* south dakota style */
+
+body.sd {
+	/*max-width: 1200px;*/
+	background: #959796 url("images/gray-wood.jpg");
+	min-width: 620px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Play', sans-serif;
+	list-style: none;
+	line-height: 1.25;
+}
+
+div#southdakota .map {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: auto;
+	border: 2px solid #625F5F;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+}
+
+div#southdakota,
+img,
+embed,
+object {
+max-width: 100%;
+height: auto;
+}
+
+div#southdakota video {
+	margin: 0 auto;
+	max-width: 40%;
+	height: auto;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
+	border: 10px outset #ddd;
+	border-color: black;
+}
+
+div#southdakota h1 {
+	font-size: 2.6em;
+	font-weight: 600;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	text-align: center
+}
+
+div#southdakota h2 {
+	font-size: 1.8em;
+	font-weight: 600;
+	padding-top: .4em;
+	padding-bottom: 1em;
+	text-align: center
+}
+
+div#southdakota p {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+#southdakota {
+	width: 90%; margin: 5% auto;
+}
+
+div#southdakota .row { margin: auto; 
+	padding-top: 3em;
+	padding-bottom: 2em;
+}
+
+div#southdakota div.clear {
+	clear: both;
+}
+
+div#southdakota @media screen and (max-width: 767px) {
+    .polaroids li:nth-child(n+5) {
+		display: none;
+    }
+}
+
+div#southdakota ul.polaroids li {
+	display: inline; 
+}
+
+div#southdakota ul.polaroids a { 
+	background: #fff; 
+	display: inline; 
+	float: left; 
+	margin: 0 0 27px 30px; 
+	width: auto; 
+	padding: 10px 10px 15px; 
+	text-align: center; 
+	font-family: "Marker Felt", sans-serif; 
+	text-decoration: none; 
+	color: #333; 
+	font-size: 18px; 
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+	-webkit-transform: rotate(-2deg); 
+	-webkit-transition: 
+	-webkit-transform .15s linear; 
+	-moz-transform: rotate(-2deg); 
+}
+
+div#southdakota ul.polaroids li {
+	padding-left: 0;
+}
+
+div#southdakota @media screen and (max-width: 768px) {
+	ul.polaroids li a {
+        margin-left: 0;
+    } 
+}
+
+div#southdakota ul.polaroids img { 
+	display: block; 
+	width: 300px; 
+	margin-bottom: 12px; 
+}
+
+div#southdakota ul.polaroids a:after { 
+	content: attr(title); 
+}
+		
+div#southdakota ul.polaroids li:nth-child(even) a { 
+	-webkit-transform: rotate(2deg);  
+	-moz-transform: rotate(2deg); 
+}
+
+div#southdakota ul.polaroids li:nth-child(3n) a { 
+	-webkit-transform: none; 
+	position: relative; top: -5px;  
+	-moz-transform: none; 
+}
+
+div#southdakota ul.polaroids li:nth-child(5n) a { 
+	-webkit-transform: rotate(5deg); 
+	position: relative; right: 5px;  
+	-moz-transform: rotate(5deg); 
+}
+
+div#southdakota ul.polaroids li:nth-child(8n) a 
+{ position: relative; 
+	right: 5px; 
+	top: 8px; 
+}
+
+div#southdakota ul.polaroids li:nth-child(11n) a { 
+	position: relative; 
+	left: -5px; 
+	top: 3px; 
+}
+		
+div#southdakota ul.polaroids li.messy a {
+	margin-top: -400px;
+	position: relative;
+	left: 160px;
+}
+
+div#southdakota ul.polaroids li a:hover { 
+	-webkit-transform: scale(1.25); 
+	-moz-transform: scale(1.25); 
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
+	position: relative; 
+	z-index: 5; 
+}
+
+/* Napa style */
+
+body.nap {
+	/*max-width: 1200px;*/
+	width: 1280px;
+	background: #F7F5F0;
+	min-width: 620px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Kalam', serif;
+	color: #4C3A27;
+	list-style: none;
+	line-height: 1.25;
+}
+
+div#napa .section {
+	margin: left: 2em;
+	padding-left: 3em;
+	padding-right: 2em;
+}
+
+div#napa .section3 {
+	margin: left: 1em;
+	padding-left: 2.5em;
+	padding-right: 2em;
+}
+
+div#napa,
+img,
+embed,
+object {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+	padding-bottom: .22em;
+}
+
+div#napa .map {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5em;
+	width: 75%;
+	height: auto;
+	border: 1px solid #4C3A27;
+	padding-bottom: 0;
+}
+
+div#napa h1 {
+	font-size: 2.6em;
+	font-weight: 600;
+	padding-top: 2em;
+	padding-bottom: .5em;
+	text-align: center
+}
+
+div#napa h2 {
+	font-size: 2.2em;
+	font-weight: 600;
+	text-align: center
+}
+
+div#napa p {
+	font-size: 1.2em;
+	font-weight: 300;
+	padding-bottom: 1em;
+}
+
+div#napa div.row {
+
+	float: right;
+	vertical-align: top;
+	padding-top: 0;
+	padding-bottom: 3em;
+}
+
+div#napa .row:after {
+	content: "";
+  	visibility: hidden;
+  	display: block;
+  	height: 0;
+  	clear: both;
+}
+
+div#napa .row figure {
+	text-align: center;
+	display:inline-block;
+	margin:0px 20px;
+	padding-top: 0;
+	padding-bottom: 1em;
+
+}
+
+div#napa .center {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+}
+
+div#napa li.wineglass {
+	background: url('images/wineglass.png') no-repeat left top;
+	/*background-position: 99.2% 1em;*/
+	font-size: 1.2em;
+	padding-left: 1.8em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	margin-left: 0;
+}
+
+div#napa li.wineglass-fav {
+	background: url('images/wineglass.png') no-repeat left top;
+	list-style-type: circle;
+	direction: rtl;
+	list-style-position: inside;
+
+	/*background-position: 99.2% 1em;*/
+	font-size: 1.2em;
+	padding-left: 1.8em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	margin-left: 0;
+}
+
+div#napa li.nowineglass {
+	list-style-type: circle;
+	/*background-position: 99.2% 1em;*/
+	font-size: 1.2em;
+	padding-left: .3em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	margin-left: 1.5em;
+}
+
+div#napa div.clear {
+	clear: both;
+}
