@@ -407,7 +407,7 @@ div#southdakota ul.polaroids li a:hover {
 
 body.nap {
 	/*max-width: 1200px;*/
-	width: 1280px;
+	width: 1225px;
 	background: #F7F5F0;
 	min-width: 620px;
 	margin: 0;
@@ -499,7 +499,7 @@ div#napa .center {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 90%;
+  	width: 95%;
 }
 
 div#napa li.wineglass {
