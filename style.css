@@ -321,12 +321,6 @@ div#southdakota div.clear {
 	clear: both;
 }
 
-div#southdakota @media screen and (max-width: 767px) {
-    .polaroids li:nth-child(n+5) {
-		display: none;
-    }
-}
-
 div#southdakota ul.polaroids li {
 	display: inline; 
 }
@@ -353,12 +347,6 @@ div#southdakota ul.polaroids a {
 
 div#southdakota ul.polaroids li {
 	padding-left: 0;
-}
-
-div#southdakota @media screen and (max-width: 768px) {
-	ul.polaroids li a {
-        margin-left: 0;
-    } 
 }
 
 div#southdakota ul.polaroids img { 
@@ -432,13 +420,11 @@ body.nap {
 }
 
 div#napa .section {
-	margin: left: 2em;
 	padding-left: 3em;
 	padding-right: 2em;
 }
 
 div#napa .section3 {
-	margin: left: 1em;
 	padding-left: 2.5em;
 	padding-right: 2em;
 }
