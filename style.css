@@ -16,7 +16,7 @@ nav ul {
 }
 
 nav ul li {
-	margin: 0px;
+	margin: 0;
 	float: left;
 }
 nav ul li a {
@@ -41,7 +41,7 @@ nav ul li a:active {
 
 body.res {
 	/*max-width: 1200px;*/
-	min-width: 620px;
+	/*min-width: 620px;*/
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -60,14 +60,14 @@ height: auto;
 
 div#resume h1 {
 	font-size: 2.6em;
-	margin-top: -15px;
+	margin-top: -.5em;
 	padding-bottom: .5em;
 }
 
 div#resume h2 {
 	font-size: 1.8em;
 	color: #5C5858;
-	margin-top: 0px;
+	margin-top: 0;
 	padding-bottom: .3em;
 }
 
@@ -167,7 +167,7 @@ div#resume .a_noformat {
 
 div#resume #infobox {
 	box-sizing: border-box;
-	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 .1em 0 rgba(0, 0, 0, .15), 0 .15em .22em 0 rgba(0, 0, 0, .2);
 	margin-top: 2%;
 	margin-right: 2%;
 	margin-bottom: 2%;
@@ -201,7 +201,7 @@ div#resume #infobox2 {
 
 div#resume #borderbox {
 	box-sizing: border-box;
-	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 .1em 0 rgba(0, 0, 0, .15), 0 .15em .22em 0 rgba(0, 0, 0, .2);
 	margin-top: 2%;
 	margin-right: 2%;
 	margin-bottom: 2%;
@@ -229,7 +229,7 @@ div#resume #rightcolumn {
 
 div#resume .leftborderbox {
 	box-sizing: border-box;
-	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 .1em 0 rgba(0, 0, 0, .15), 0 .15em .22em 0 rgba(0, 0, 0, .2);
 	border: 2px;
 	padding: 3%;
 	background-color: #fff;
@@ -237,7 +237,7 @@ div#resume .leftborderbox {
 }
 div#resume .rightborderbox {
 	box-sizing: border-box;
-	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 .1em 0 rgba(0, 0, 0, .15), 0 .15em .22em 0 rgba(0, 0, 0, .2);
 	border: 2px;
 	padding: 3%;
 	background-color: #fff;
@@ -249,7 +249,7 @@ div#resume .rightborderbox {
 body.sd {
 	/*max-width: 1200px;*/
 	background: #959796 url("images/gray-wood.jpg");
-	min-width: 620px;
+	/*min-width: 620px;*/
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -264,12 +264,12 @@ div#southdakota .map {
 	margin-right: auto;
 	width: 75%;
 	height: auto;
-	border: 2px solid #625F5F;
-	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
-	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+	border: .2em solid #625F5F;
+	-webkit-box-shadow: 0 .3em .4em rgba(0,0,0,.25); 
+	-moz-box-shadow: 0 .3em .4em rgba(0,0,0,.25); 
 }
 
-div#southdakota,
+div#southdakota
 img,
 embed,
 object {
@@ -281,9 +281,9 @@ div#southdakota video {
 	margin: 0 auto;
 	max-width: 40%;
 	height: auto;
-	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
-	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
-	border: 10px outset #ddd;
+	-webkit-box-shadow: 0 .3em .4em rgba(0,0,0,.5); 
+	-moz-box-shadow: 0 .3em .4em rgba(0,0,0,.5); 
+	border: .7em outset #ddd;
 	border-color: black;
 }
 
@@ -429,7 +429,7 @@ div#napa .section3 {
 	padding-right: 2em;
 }
 
-div#napa,
+div#napa
 img,
 embed,
 object {
