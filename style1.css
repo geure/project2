@@ -1,0 +1,245 @@
+/* style1.css */
+
+/* fonts
+font-family: 'Arial', sans-serif;
+font-family: 'Source Sans Pro', Arial, sans-serif;
+*/
+
+nav {  
+	font-family: 'Arial', sans-serif;
+	font-size: 1em;
+	width: 100%;
+	height: 2.1em;
+	background-color: #323131;
+	padding-left: 2.5em;
+}  
+
+nav ul {
+	padding-top: .25em;
+}
+
+nav ul li {
+	margin: 0;
+	float: left;
+}
+nav ul li a {
+	text-align: center;
+	display: block;
+	float: left;
+	color: white;
+	text-decoration: none;
+	overflow: hidden;
+	padding-top: .2em;
+	padding-right: 1em;
+	vertical-align: middle;
+	font-weight: 200;
+} 
+
+nav ul li a:hover,
+nav ul li a:active { 
+	color: silver;
+}  
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #F5F5F5;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+div,
+img,
+embed,
+object,
+video {
+max-width: 100%;
+height: auto;
+}
+
+h1 {
+	font-size: 2.6em;
+	margin-top: -.5em;
+	padding-bottom: .5em;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: #5C5858;
+	margin-top: 0;
+	padding-bottom: .3em;
+}
+
+h3 {
+	font-size: 1.4em;
+	font-weight: 800;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
+h4 {
+	font-size: 1.2em;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
+.dim {
+	color: #C0C0C0;
+	font-size: .7em;
+}
+
+p, ul {
+	font-weight: 400;
+	font-size: 1em;
+}
+
+ul {
+	padding-left: 1em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+li.bullet {
+	padding: 0;
+	list-style-type: square;
+	margin: 0 0 .5em .5em;
+}
+
+li.no_bullet {
+	padding: 0;
+}
+
+/*
+ul.bullet li::before {
+	color: #5C5858;
+	display: inline-block;
+	left: -1.1225em;
+	position: absolute;
+	top: 0em;
+}*/
+
+li.location {
+	background: url('images/location.png') no-repeat left top;
+	background-position: 99.2% .95em;
+	font-size: 1.1em;
+	padding-right: 1.8em;
+	text-decoration: none;
+	padding-top: 1em;
+	padding-bottom: .6em;
+	text-align: right;
+}
+
+li.mail {
+	background: url('images/mail3.png') no-repeat left top;
+	background-position: 100% 0em;
+	font-size: 1.1em;
+	padding-right: 1.8em;
+	text-decoration: none;
+	padding-bottom: .6em;
+	text-align: right;
+}
+
+li.linkedin {
+	background: url('images/linkedin2.png') no-repeat left top;
+	background-position: 100% 0em;
+	font-size: 1.1em;
+	padding-right: 1.8em;
+	text-decoration: none;
+	padding-bottom: .6em;
+	text-align: right;
+}
+
+li.github {
+	background: url('images/github2.png') no-repeat left top;
+	background-position: 100% 0em;
+	font-size: 1.1em;
+	padding-right: 1.8em;
+	text-decoration: none;
+	padding-bottom: .6em;
+	text-align: right;
+}
+
+.a_noformat {
+	text-decoration: none;
+	color: black;
+}
+
+#infobox {
+	box-sizing: border-box;
+	box-shadow: 0 0 .0625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	border: .125em;
+	padding: 2%;
+	background-color: #fff;
+	overflow: hidden /* keep div elements from floating out of the box */
+}
+
+.headshot{
+	/*width:18%;*/
+	float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 14.0625em;
+    height: 14.0625em;
+}
+
+#infobox1 {
+	float: left;
+	width: 30%;
+	padding-left: 5%;
+	padding-top: 6%;
+}
+#infobox2 {
+	float: right;
+	width: 35%;
+	padding-top: 3%;
+}
+
+#borderbox {
+	box-sizing: border-box;
+	box-shadow: 0 0 .0625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	border: .125em;
+	padding: 2%;
+	background-color: #fff;
+}
+
+#leftcolumn {
+	float: left;
+	width: 60%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+
+#rightcolumn {
+	float: right;
+	width: 34%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+
+}
+
+.leftborderbox {
+	box-sizing: border-box;
+	box-shadow: 0 0 .0625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
+	border: .125em;
+	padding: 3%;
+	background-color: #fff;
+
+}
+
+.rightborderbox {
+	box-sizing: border-box;
+	box-shadow: 0 0 .0625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
+	border: .125em;
+	padding: 3%;
+	background-color: #fff;
+	margin-bottom: 6%;
+}

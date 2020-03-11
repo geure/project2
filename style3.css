@@ -1,13 +1,11 @@
-/* style2.css */
+/* style3.css */
 
 /* fonts
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Play', sans-serif;
-font-family: 'Marker Felt';
+font-family: 'Arial', sans-serif;
+font-family: 'Kalam', serif;
 */
 
 body.nap {
-	/*max-width: 1200px;*/
 	width: 1280px;
 	background: #F7F5F0;
 	min-width: 620px;
@@ -21,7 +19,7 @@ body.nap {
 }
 
 nav {  
-	font-family: 'Arial';
+	font-family: 'Arial', sans-serif;
 	font-size: 1em;
 	width: 100%;
 	height: 2.1em;
@@ -34,7 +32,7 @@ nav ul {
 }
 
 nav ul li {
-	margin: 0px;
+	margin: 0;
 	float: left;
 }
 nav ul li a {
@@ -54,14 +52,6 @@ nav ul li a:hover,
 nav ul li a:active { 
 	color: silver;
 }  
-
-/*
-.logo {
-	color: white;
-	font-family: 'Hind', sans-serif;  font-size: 1.2em;
-	padding-left: 1em;
-	padding-right: 2em; 
-	}*/
 
 div#napa .section {
 	margin: left: 2em;
@@ -92,7 +82,7 @@ div#napa .map {
 	margin-bottom: 5em;
 	width: 75%;
 	height: auto;
-	border: 1px solid #4C3A27;
+	border: .0625em solid #4C3A27;
 	padding-bottom: 0;
 }
 
@@ -117,7 +107,6 @@ div#napa p {
 }
 
 div#napa div.row {
-
 	float: right;
 	vertical-align: top;
 	padding-top: 0;
@@ -135,22 +124,20 @@ div#napa .row:after {
 div#napa .row figure {
 	text-align: center;
 	display:inline-block;
-	margin:0px 20px;
+	margin:0 1.25em;
 	padding-top: 0;
 	padding-bottom: 1em;
-
 }
 
 div#napa .center {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 90%;
+  	width: 95%;
 }
 
 div#napa li.wineglass {
 	background: url('images/wineglass.png') no-repeat left top;
-	/*background-position: 99.2% 1em;*/
 	font-size: 1.2em;
 	padding-left: 1.8em;
 	padding-top: .1em;
@@ -163,8 +150,6 @@ div#napa li.wineglass-fav {
 	list-style-type: circle;
 	direction: rtl;
 	list-style-position: inside;
-
-	/*background-position: 99.2% 1em;*/
 	font-size: 1.2em;
 	padding-left: 1.8em;
 	padding-top: .1em;
@@ -174,7 +159,6 @@ div#napa li.wineglass-fav {
 
 div#napa li.nowineglass {
 	list-style-type: circle;
-	/*background-position: 99.2% 1em;*/
 	font-size: 1.2em;
 	padding-left: .3em;
 	padding-top: .1em;
