@@ -6,6 +6,12 @@ font-family: 'Play', sans-serif;
 font-family: 'Marker Felt', cursive;
 */
 
+.container {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
 body.sd {
 	background: #959796 url("images/gray-wood.jpg");
 	margin: 0;
@@ -22,11 +28,17 @@ nav {
 	width: 100%;
 	height: 2.1em;
 	background-color: #323131;
-	padding-left: 3.5em;
 }  
+
+#navbar-container {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
 
 nav ul {
 	padding-top: .25em;
+	display: inline-block;
 }
 
 nav ul li {
@@ -40,16 +52,18 @@ nav ul li a {
 	color: white;
 	text-decoration: none;
 	overflow: hidden;
-	padding-top: .1em;
-	padding-right: 1em;
+	padding: .1em 1em 0 1em;
 	vertical-align: middle;
 	font-weight: 200;
 } 
 
-nav ul li a:hover,
-nav ul li a:active { 
+nav ul li a:hover { 
 	color: silver;
 }  
+
+#navbar-container #onpage {
+	color: silver;
+}
 
 div#southdakota .map {
 	display: block;
@@ -84,7 +98,7 @@ div#southdakota video {
 div#southdakota h1 {
 	font-size: 2.6em;
 	font-weight: 600;
-	padding-top: .5em;
+	padding-top: 2em;
 	padding-bottom: .5em;
 	text-align: center
 }
