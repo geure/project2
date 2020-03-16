@@ -6,181 +6,181 @@ font-family: 'Kalam', serif;
 */
 
 .container {
-	width: 1280px;
-	margin: 0 auto;
-	overflow: hidden;
+  width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 body.nap {
-	
-	background: #F7F5F0;
-	min-width: 620px;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: 'Kalam', serif;
-	color: #4C3A27;
-	list-style: none;
-	line-height: 1.25;
+  
+  background: #F7F5F0;
+  min-width: 620px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Kalam', serif;
+  color: #4C3A27;
+  list-style: none;
+  line-height: 1.25;
 }
 
 nav {  
-	font-family: 'Arial', sans-serif;
-	font-size: 1em;
-	width: 100%;
-	height: 2.1em;
-	background-color: #323131;
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+  width: 100%;
+  height: 2.1em;
+  background-color: #323131;
 }  
 
 #navbar-container {
-	float: left;
-	width: 100%;
-	text-align: center;
+  float: left;
+  width: 100%;
+  text-align: center;
 }
 
 nav ul {
-	padding-top: .25em;
-	display: inline-block;
+  padding-top: .25em;
+  display: inline-block;
 }
 
 nav ul li {
-	margin: 0;
-	float: left;
+  margin: 0;
+  float: left;
 }
 
 nav ul li a {
-	text-align: center;
-	display: block;
-	float: left;
-	color: white;
-	text-decoration: none;
-	overflow: hidden;
-	padding: .1em 1em 0 1em;
-	vertical-align: middle;
-	font-weight: 200;
+  text-align: center;
+  display: block;
+  float: left;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  padding: .1em 1em 0 1em;
+  vertical-align: middle;
+  font-weight: 200;
 } 
 
 nav ul li a:hover { 
-	color: silver;
+  color: silver;
 }  
 
 #navbar-container #onpage {
-	color: silver;
+  color: silver;
 }
 
 div#napa .section {
-	margin-left: 2em;
-	padding-left: 3em;
-	padding-right: 2em;
+  margin-left: 2em;
+  padding-left: 3em;
+  padding-right: 2em;
 }
 
 div#napa .section3 {
-	margin-left: 1em;
-	padding-left: 2.5em;
-	padding-right: 2em;
+  margin-left: 1em;
+  padding-left: 2.5em;
+  padding-right: 2em;
 }
 
 div#napa,
 img,
 embed,
 object {
-	max-width: 100%;
-	height: auto;
-	vertical-align: top;
-	padding-bottom: .22em;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+  padding-bottom: .22em;
 }
 
 div#napa .map {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5em;
-	width: 75%;
-	height: auto;
-	border: .0625em solid #4C3A27;
-	padding-bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  width: 75%;
+  height: auto;
+  border: .0625em solid #4C3A27;
+  padding-bottom: 0;
 }
 
 div#napa h1 {
-	font-size: 2.6em;
-	font-weight: 600;
-	padding-top: 2em;
-	padding-bottom: .5em;
-	text-align: center
+  font-size: 2.6em;
+  font-weight: 600;
+  padding-top: 2em;
+  padding-bottom: .5em;
+  text-align: center
 }
 
 div#napa h2 {
-	font-size: 2.2em;
-	font-weight: 600;
-	text-align: center
+  font-size: 2.2em;
+  font-weight: 600;
+  text-align: center
 }
 
 div#napa p {
-	font-size: 1.2em;
-	font-weight: 300;
-	padding-bottom: 1em;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding-bottom: 1em;
 }
 
 div#napa div.row {
-	float: right;
-	vertical-align: top;
-	padding-top: 0;
-	padding-bottom: 3em;
+  float: right;
+  vertical-align: top;
+  padding-top: 0;
+  padding-bottom: 3em;
 }
 
 div#napa .row:after {
-	content: "";
-  	visibility: hidden;
-  	display: block;
-  	height: 0;
-  	clear: both;
+  content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }
 
 div#napa .row figure {
-	text-align: center;
-	display:inline-block;
-	margin:0 1.25em;
-	padding-top: 0;
-	padding-bottom: 1em;
+  text-align: center;
+  display:inline-block;
+  margin:0 1.25em;
+  padding-top: 0;
+  padding-bottom: 1em;
 }
 
 div#napa .center {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 95%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
 
 div#napa li.wineglass {
-	background: url('images/wineglass.png') no-repeat left top;
-	font-size: 1.2em;
-	padding-left: 1.8em;
-	padding-top: .1em;
-	padding-bottom: .1em;
-	margin-left: 0;
+  background: url('images/wineglass.png') no-repeat left top;
+  font-size: 1.2em;
+  padding-left: 1.8em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  margin-left: 0;
 }
 
 div#napa li.wineglass-fav {
-	background: url('images/wineglass.png') no-repeat left top;
-	list-style-type: circle;
-	direction: rtl;
-	list-style-position: inside;
-	font-size: 1.2em;
-	padding-left: 1.8em;
-	padding-top: .1em;
-	padding-bottom: .1em;
-	margin-left: 0;
+  background: url('images/wineglass.png') no-repeat left top;
+  list-style-type: circle;
+  direction: rtl;
+  list-style-position: inside;
+  font-size: 1.2em;
+  padding-left: 1.8em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  margin-left: 0;
 }
 
 div#napa li.nowineglass {
-	list-style-type: circle;
-	font-size: 1.2em;
-	padding-left: .3em;
-	padding-top: .1em;
-	padding-bottom: .1em;
-	margin-left: 1.5em;
+  list-style-type: circle;
+  font-size: 1.2em;
+  padding-left: .3em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  margin-left: 1.5em;
 }
 
 div#napa div.clear {
-	clear: both;
+  clear: both;
 }
