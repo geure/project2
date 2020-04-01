@@ -5,7 +5,7 @@ font-family: 'Arial', sans-serif;
 font-family: 'Kalam', serif;
 */
 
-.container {
+.napa-container {
   width: 1280px;
   margin: 0 auto;
   overflow: hidden;
@@ -68,7 +68,7 @@ nav ul li a:hover {
   color: silver;
 }
 
-div#napa .section {
+div#napa .section1 {
   margin-left: 0em;
   padding-left: 3em;
   padding-right: 2em;
