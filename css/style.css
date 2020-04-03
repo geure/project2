@@ -55,7 +55,7 @@ body.resume {
 }
 
 body.sd {
-  background: #959796 url("images/gray-wood.jpg");
+  background: #959796 url("../images/gray-wood.jpg");
   font-family: 'Play', sans-serif;
   line-height: 1.25;
 }
@@ -203,7 +203,7 @@ li.no_bullet {
 }
 
 li.location {
-  background: url('images/location.png') no-repeat left top;
+  background: url('../images/location.png') no-repeat left top;
   background-position: 99.2% .95em;
   font-size: 1.1em;
   padding-right: 1.8em;
@@ -214,7 +214,7 @@ li.location {
 }
 
 li.mail {
-  background: url('images/mail3.png') no-repeat left top;
+  background: url('../images/mail3.png') no-repeat left top;
   background-position: 100% 0em;
   font-size: 1.1em;
   padding-right: 1.8em;
@@ -224,7 +224,7 @@ li.mail {
 }
 
 li.linkedin {
-  background: url('images/linkedin2.png') no-repeat left top;
+  background: url('../images/linkedin2.png') no-repeat left top;
   background-position: 100% 0em;
   font-size: 1.1em;
   padding-right: 1.8em;
@@ -234,7 +234,7 @@ li.linkedin {
 }
 
 li.github {
-  background: url('images/github2.png') no-repeat left top;
+  background: url('../images/github2.png') no-repeat left top;
   background-position: 100% 0em;
   font-size: 1.1em;
   padding-right: 1.8em;
@@ -499,7 +499,7 @@ div#napa .section3 {
 }
 
 div#napa li.wineglass {
-  background: url('images/wineglass.png') no-repeat left top;
+  background: url('../images/wineglass.png') no-repeat left top;
   font-size: 1.2em;
   padding-left: 1.8em;
   padding-top: .1em;
@@ -508,7 +508,7 @@ div#napa li.wineglass {
 }
 
 div#napa li.wineglass-fav {
-  background: url('images/wineglass.png') no-repeat left top;
+  background: url('../images/wineglass.png') no-repeat left top;
   list-style-type: circle;
   direction: rtl;
   list-style-position: inside;
