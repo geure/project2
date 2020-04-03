@@ -261,7 +261,7 @@ li.github {
   overflow: hidden /* keep div elements from floating out of the box */
 }
 
-.headshot{
+.headshot {
   /*width:18%;*/
   float: left;
   border-radius: 50%;
@@ -327,7 +327,7 @@ li.github {
 }
 
 #southdakota {
-  width: 95%; margin: 5% auto;
+  width: 93%; margin: 7% auto;
 }
 
 div#southdakota .map {
