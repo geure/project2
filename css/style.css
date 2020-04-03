@@ -494,8 +494,13 @@ div#napa .section1 {
 
 div#napa .section3 {
   margin-left: 0em;
-  padding-left: 2.5em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: .5em;
+}
+
+div#napa ul {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 div#napa li.wineglass {
